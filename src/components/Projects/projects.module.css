@@ -1,0 +1,28 @@
+.projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.project {
+    overflow: auto;
+    min-width: 200px;
+    margin-top: 40px;
+    max-width: 250px;
+    background: white;
+    border: 3px solid #0e58f9;
+    border-radius: 20px;
+    font-size: 2rem;
+    font-family: 'Merriweather', cursive;
+    text-align: center;
+}
+
+a {
+    color: #38A3A5;
+    text-decoration: none;
+  }
+
+.image {
+    max-width:100%;
+    max-height:100%;
+}
