@@ -34,7 +34,7 @@ function App() {
         <Projects />
       </div>
       <div className='footer'>
-        <h1>Thank you, you can contact me on <a href='https://www.instagram.com/ar_____t__/'>Instagram</a></h1>
+        <h1>Thank you, you can contact me on <a style={{color:'#f90363'}} href='https://www.instagram.com/ar_____t__/'>Instagram</a></h1>
       </div>
     </div>
   );
