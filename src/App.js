@@ -44,9 +44,11 @@ function App() {
         <h1 className='recent-projects'>My recent Projects</h1>
         <Projects />
       </div>
-      <div className='footer'>
-        <h1>Thank you, you can contact me on <a style={{color:'#f90363'}} href='https://www.instagram.com/ar_____t__/'>Instagram</a></h1>
-      </div>
+      <ReactWOW animation='bounceIn' duration='2s'>
+        <div className='footer'>
+          <h1>Thank you, you can contact me on <a style={{color:'#f90363'}} href='https://www.instagram.com/ar_____t__/'>Instagram</a></h1>
+        </div>
+      </ReactWOW>
     </div>
   );
 }
