@@ -37,7 +37,7 @@ function App() {
         <h1 className='about-skills-text'>About Me</h1>
         <ReactWOW animation='rollIn' duration='1s'>
           <div className='about-card'>
-            I am 16 years old self-taught Programmer without expirience, I love to learn new things every day,
+            I am self-taught front-end Programmer without expirience, I love to learn new things every day,
             and nothing can change my mind.
           </div>
         </ReactWOW>
