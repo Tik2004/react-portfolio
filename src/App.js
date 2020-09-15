@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
 import {SkillsBar as Skills} from './components/Skills'
-import { Parallax, Background } from 'react-parallax';
+import { Parallax } from 'react-parallax';
 import Projects from './components/Projects'
+import ReactWOW from 'react-wow'
+import 'animate.css'
 
 function App() {
   return (
@@ -15,10 +17,17 @@ function App() {
         >
 
             <div>
-            <Background className="custom-bg">
+            <ReactWOW animation='bounceIn' duration='2s'>
               <h3 className='name'><b id='react'>React</b> | <b id='vue'>Vue</b> JS developer</h3>          
-              <h1 className='about-first' ><span>&lt;</span>Tigran Arshakyan <span>/&gt;</span></h1>
-            </Background>
+              <h1 className='about-first' >
+               <span>&lt;</span>
+                Tigran Arshakyan 
+               <span>/&gt;</span>
+               <a href='https://github.com/Tik2004'>
+                <img width='50px' src={require('./images/git.svg')} alt='github' />
+               </a>
+              </h1>
+            </ReactWOW>
             </div>
 
       </Parallax>
@@ -26,10 +35,12 @@ function App() {
         <h1 className='skills-text'>My Skills</h1>
         <Skills />
         <h1 className='about-skills-text'>About Me</h1>
-        <div className='about-card'>
-          I am 16 years old self-taught Programmer without expirience, I love to learn new things every day,
-          and nothing can change my mind.
-        </div>
+        <ReactWOW animation='rollIn' duration='1s'>
+          <div className='about-card'>
+            I am 16 years old self-taught Programmer without expirience, I love to learn new things every day,
+            and nothing can change my mind.
+          </div>
+        </ReactWOW>
         <h1 className='recent-projects'>My recent Projects</h1>
         <Projects />
       </div>

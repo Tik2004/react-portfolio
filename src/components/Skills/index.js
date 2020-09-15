@@ -36,6 +36,6 @@ export const SkillsBar = () => {
     ]
 
     return (
-      <SkillBars skills={SKILLS} flat/>
+        <SkillBars skills={SKILLS} flat/>
     )
 }

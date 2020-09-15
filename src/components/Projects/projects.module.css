@@ -10,16 +10,17 @@
     margin-top: 40px;
     max-width: 250px;
     background: white;
-    border: 3px solid #0e58f9;
+    border: 3px solid #999899;
     border-radius: 20px;
-    font-size: 2rem;
-    font-family: 'Merriweather', cursive;
+    font-size: 1.6rem;
+    font-family: 'Grandstander', cursive;
     text-align: center;
 }
 
 a {
     color: #38A3A5;
     text-decoration: none;
+    font-size: 0.8em;
   }
 
 .image {
